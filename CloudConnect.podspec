@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CloudConnect"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "This is small and light cloud connect framework.."
   spec.description  = <<-DESC
                    Cloud connect is a small and lightweight Swift framework that allows to connect to cloud and being notified response a super-easy way!

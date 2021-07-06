@@ -21,6 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C8524F9D2694937100CC5579 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8524F9B2694937100CC5579 /* Reachability.swift */; };
+		C8524F9E2694937100CC5579 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8524F9C2694937100CC5579 /* ReachabilityManager.swift */; };
+		C8524FA0269493A400CC5579 /* NetworkStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8524F9F269493A400CC5579 /* NetworkStatusView.swift */; };
 		CBC2D0D3261F41730032D782 /* CloudConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC2D0D1261F41730032D782 /* CloudConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBC2D179261F42400032D782 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D15E261F42400032D782 /* MultipartFormData.swift */; };
 		CBC2D17A261F42400032D782 /* RequestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D15F261F42400032D782 /* RequestForm.swift */; };
@@ -49,13 +52,12 @@
 		CBC2D191261F42400032D782 /* GenericOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D176261F42400032D782 /* GenericOperation.swift */; };
 		CBC2D192261F42400032D782 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D177261F42400032D782 /* BaseProvider.swift */; };
 		CBC2D193261F42400032D782 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D178261F42400032D782 /* JSONParser.swift */; };
-		CBC2D19B261F424A0032D782 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D196261F424A0032D782 /* ReachabilityManager.swift */; };
-		CBC2D19C261F424A0032D782 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D197261F424A0032D782 /* Reachability.swift */; };
-		CBC2D19D261F424A0032D782 /* NetworkStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D199261F424A0032D782 /* NetworkStatusView.swift */; };
-		CBC2D19E261F424A0032D782 /* FSMainThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2D19A261F424A0032D782 /* FSMainThreadHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8524F9B2694937100CC5579 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C8524F9C2694937100CC5579 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		C8524F9F269493A400CC5579 /* NetworkStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStatusView.swift; sourceTree = "<group>"; };
 		CBC2D0CE261F41730032D782 /* CloudConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC2D0D1261F41730032D782 /* CloudConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudConnect.h; sourceTree = "<group>"; };
 		CBC2D0D2261F41730032D782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,10 +88,6 @@
 		CBC2D176261F42400032D782 /* GenericOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericOperation.swift; sourceTree = "<group>"; };
 		CBC2D177261F42400032D782 /* BaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
 		CBC2D178261F42400032D782 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
-		CBC2D196261F424A0032D782 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
-		CBC2D197261F424A0032D782 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		CBC2D199261F424A0032D782 /* NetworkStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStatusView.swift; sourceTree = "<group>"; };
-		CBC2D19A261F424A0032D782 /* FSMainThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSMainThreadHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 		CBC2D0D0261F41730032D782 /* CloudConnect */ = {
 			isa = PBXGroup;
 			children = (
-				CBC2D195261F424A0032D782 /* iOSReachability */,
 				CBC2D15D261F42400032D782 /* Connection */,
 				CBC2D0D1261F41730032D782 /* CloudConnect.h */,
 				CBC2D0D2261F41730032D782 /* Info.plist */,
@@ -133,6 +130,9 @@
 		CBC2D15D261F42400032D782 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
+				C8524F9F269493A400CC5579 /* NetworkStatusView.swift */,
+				C8524F9B2694937100CC5579 /* Reachability.swift */,
+				C8524F9C2694937100CC5579 /* ReachabilityManager.swift */,
 				CBC2D15E261F42400032D782 /* MultipartFormData.swift */,
 				CBC2D15F261F42400032D782 /* RequestForm.swift */,
 				CBC2D160261F42400032D782 /* CloudService.swift */,
@@ -162,25 +162,6 @@
 				CBC2D178261F42400032D782 /* JSONParser.swift */,
 			);
 			path = Connection;
-			sourceTree = "<group>";
-		};
-		CBC2D195261F424A0032D782 /* iOSReachability */ = {
-			isa = PBXGroup;
-			children = (
-				CBC2D196261F424A0032D782 /* ReachabilityManager.swift */,
-				CBC2D197261F424A0032D782 /* Reachability.swift */,
-				CBC2D198261F424A0032D782 /* View */,
-			);
-			path = iOSReachability;
-			sourceTree = "<group>";
-		};
-		CBC2D198261F424A0032D782 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CBC2D199261F424A0032D782 /* NetworkStatusView.swift */,
-				CBC2D19A261F424A0032D782 /* FSMainThreadHelper.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,18 +273,17 @@
 				CBC2D17E261F42400032D782 /* URLRequest+CloudService.swift in Sources */,
 				CBC2D180261F42400032D782 /* ParameterEncoding.swift in Sources */,
 				CBC2D185261F42400032D782 /* URLConvertible+URLRequestConvertible.swift in Sources */,
-				CBC2D19C261F424A0032D782 /* Reachability.swift in Sources */,
 				CBC2D17A261F42400032D782 /* RequestForm.swift in Sources */,
 				CBC2D18E261F42400032D782 /* HTTPStatusCode.swift in Sources */,
-				CBC2D19E261F424A0032D782 /* FSMainThreadHelper.swift in Sources */,
 				CBC2D18D261F42400032D782 /* DownloadService.swift in Sources */,
 				CBC2D18F261F42400032D782 /* CSQueue.swift in Sources */,
 				CBC2D193261F42400032D782 /* JSONParser.swift in Sources */,
 				CBC2D190261F42400032D782 /* BaseDecodingModel.swift in Sources */,
 				CBC2D18A261F42400032D782 /* BaseOperation.swift in Sources */,
+				C8524F9E2694937100CC5579 /* ReachabilityManager.swift in Sources */,
+				C8524F9D2694937100CC5579 /* Reachability.swift in Sources */,
 				CBC2D17B261F42400032D782 /* CloudService.swift in Sources */,
 				CBC2D189261F42400032D782 /* CloudQuery.swift in Sources */,
-				CBC2D19B261F424A0032D782 /* ReachabilityManager.swift in Sources */,
 				CBC2D17C261F42400032D782 /* URLRequest.swift in Sources */,
 				CBC2D17D261F42400032D782 /* URLSessionConfiguration+CloudService.swift in Sources */,
 				CBC2D192261F42400032D782 /* BaseProvider.swift in Sources */,
@@ -313,7 +293,7 @@
 				CBC2D188261F42400032D782 /* LogHelper.swift in Sources */,
 				CBC2D187261F42400032D782 /* HTTPHeaders.swift in Sources */,
 				CBC2D182261F42400032D782 /* Download.swift in Sources */,
-				CBC2D19D261F424A0032D782 /* NetworkStatusView.swift in Sources */,
+				C8524FA0269493A400CC5579 /* NetworkStatusView.swift in Sources */,
 				CBC2D183261F42400032D782 /* Encodable.swift in Sources */,
 				CBC2D191261F42400032D782 /* GenericOperation.swift in Sources */,
 			);

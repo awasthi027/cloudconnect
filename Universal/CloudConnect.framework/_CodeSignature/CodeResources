@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CloudConnect-Swift.h</key>
 		<data>
-		JSJRyMsUk87J+SZW6SSWAMKuv4s=
+		hKFgYAgK06/U+ryFO1U859Zx/tI=
 		</data>
 		<key>Headers/CloudConnect.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RQsnGOROnO6BjZFhZc+2/01rSik=
+		2lPNIfr/ER0/Mkrcm5XU3RVgvaM=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		aEo9SjaIaLsFRT8CBx8Wr14YMhU=
+		eZ1oo+cxLwVeTXk9eO9eSDnz7JI=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		aEo9SjaIaLsFRT8CBx8Wr14YMhU=
+		eZ1oo+cxLwVeTXk9eO9eSDnz7JI=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3RSGtYd1hojuqBmObpo5wzZF9ho=
+		IV/9Z4R4k89Vik2B5GBQWHVGB0I=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pjYdAHIg0/xaxCWToyvsDMT3er8=
+		Uur4Xxj1yumUDQKcwuatgGsz034=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		3RSGtYd1hojuqBmObpo5wzZF9ho=
+		IV/9Z4R4k89Vik2B5GBQWHVGB0I=
 		</data>
 		<key>Modules/CloudConnect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		pjYdAHIg0/xaxCWToyvsDMT3er8=
+		Uur4Xxj1yumUDQKcwuatgGsz034=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4gzE9ZsxFJzNp+U/pnDAXWopmiKAxwcmfVFiQCfFZc=
+			IOD6klSIaEzmSLocyQHahiU4swPFDubjfAB5Zm4ad+0=
 			</data>
 		</dict>
 		<key>Headers/CloudConnect.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPg5Nr9ja7CbbZVDAAItppas0PN9JtJhZfijMJ8pU5o=
+			QGCndeLM6qBgfzf7Tte/2l9Uo93ZO7JhjE2gggVwp9c=
 			</data>
 		</dict>
 		<key>Modules/CloudConnect.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPg5Nr9ja7CbbZVDAAItppas0PN9JtJhZfijMJ8pU5o=
+			QGCndeLM6qBgfzf7Tte/2l9Uo93ZO7JhjE2gggVwp9c=
 			</data>
 		</dict>
 		<key>Modules/CloudConnect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRUkiRxJzFsEIKhVEg2DCfbdabv4D2X8cc7xG1MGFeg=
+			68VtUybmOXcnr+KzwZOejNcN5YNCPKrnPJATZfTqgEI=
 			</data>
 		</dict>
 		<key>Modules/CloudConnect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4vz4R+nz3sYdMDQ6xaji3l18MdW9GdnrC32l7Vaq88=
+			Q1qQnAnzfkP9wB4vt8HOVxqPaxTKUKbOPTsWBOex47s=
 			</data>
 		</dict>
 		<key>Modules/CloudConnect.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRUkiRxJzFsEIKhVEg2DCfbdabv4D2X8cc7xG1MGFeg=
+			68VtUybmOXcnr+KzwZOejNcN5YNCPKrnPJATZfTqgEI=
 			</data>
 		</dict>
 		<key>Modules/CloudConnect.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4vz4R+nz3sYdMDQ6xaji3l18MdW9GdnrC32l7Vaq88=
+			Q1qQnAnzfkP9wB4vt8HOVxqPaxTKUKbOPTsWBOex47s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
