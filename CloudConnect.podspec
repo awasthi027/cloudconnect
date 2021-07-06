@@ -10,9 +10,10 @@ Pod::Spec.new do |spec|
   spec.author       = { "YOUR_NAME" => "YOUR_EMAIL" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => 'file:' + __dir__ + "/" }
-  # spec.source       = { :git => "https://github.com/awasthi027/cloudconnect.git", :tag => "#{spec.version}" }
+  # spec.source       = { :git => "https://github.com/awasthi027/cloudconnect.git", :branch => "master", :tag => "#{spec.version}" }
   spec.source_files = "CloudConnect/*/*.{swift}"
   spec.swift_version = "5.3.1"
+  s.framework  = "Foundation"
 end
 
 
