@@ -1,25 +1,40 @@
-Pod::Spec.new do |spec|
-  spec.name         = "CloudConnect"
-  spec.version      = "1.0.2"
-  spec.summary      = "This is small and light cloud connect framework.."
-  spec.description  = <<-DESC
-                   Cloud connect is a small and lightweight Swift framework that allows to connect to cloud and being notified response a super-easy way!
-                   DESC
-  spec.homepage     = "https://appcoda.com"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "YOUR_NAME" => "YOUR_EMAIL" }
-  spec.platform     = :ios, "12.0"
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
-  # spec.source       = { :git => "https://github.com/awasthi027/cloudconnect.git", :branch => "master", :tag => "#{spec.version}" }
-  spec.source_files = "CloudConnect/**/*.{swift}"
-  spec.swift_version = "5.0"
-   spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
- spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
- spec.framework    = 'Foundation'
- spec.framework    = 'UIKit'
+Pod::Spec.new do |s|
+
+# 1
+s.platform = :ios
+s.ios.deployment_target = '12.0'
+s.name = "RWPickFlavor"
+s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+s.requires_arc = true
+
+# 2
+s.version = "1.0.5"
+
+# 3
+s.license = { :type => "MIT", :file => "LICENSE" }
+
+# 4 - Replace with your name and e-mail address
+s.author = { "Ashish Awasthi" => "myemail.awasthi@gmail.com" }
+
+# 5 - Replace this URL with your own GitHub page's URL (from the address bar)
+s.homepage = "https://github.com/awasthi027/cloudconnect"
+
+# 6 - Replace this URL with your own Git URL from "Quick Setup"
+s.source = { :git => "https://github.com/awasthi027/cloudconnect.git", 
+             :tag => "#{s.version}" }
+
+# 7
+s.framework = "UIKit"
+s.dependency = "Foundation"
+
+
+# 8
+s.source_files = "CloudConnect/**/*.{swift}"
+
+# 9
+#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
+# 10
+s.swift_version = "5.4.2"
+
 end
-
-
-
