@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CloudConnect"
-  spec.version      = "1.0.0"
+  spec.version      = "v1.0.0"
   spec.summary      = "This is small and light cloud connect framework.."
   spec.description  = <<-DESC
                    Cloud connect is a small and lightweight Swift framework that allows to connect to cloud and being notified response a super-easy way!
@@ -13,7 +13,6 @@ Pod::Spec.new do |spec|
   # spec.source       = { :git => "https://github.com/awasthi027/cloudconnect.git", :branch => "master", :tag => "#{spec.version}" }
   spec.source_files = "CloudConnect/*/*.{swift}"
   spec.swift_version = "5.3.1"
-  s.framework  = "Foundation"
 end
 
 
