@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "RWPickFlavor"
-s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+s.name = "CloudConnect"
+s.summary = "CloudConnect lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
@@ -32,7 +32,7 @@ s.source = { :git => "https://github.com/awasthi027/cloudconnect.git",
 s.source_files = "CloudConnect/**/*.{swift}"
 
 # 9
-#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "CloudConnect/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.4.2"
