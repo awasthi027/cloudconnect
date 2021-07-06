@@ -13,6 +13,12 @@ Pod::Spec.new do |spec|
   # spec.source       = { :git => "https://github.com/awasthi027/cloudconnect.git", :branch => "master", :tag => "#{spec.version}" }
   spec.source_files = "CloudConnect/**/*.{swift}"
   spec.swift_version = "5.0"
+   spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+ spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ spec.framework    = 'Foundation'
+ spec.framework    = 'UIKit'
 end
 
 
