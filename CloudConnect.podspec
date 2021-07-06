@@ -24,8 +24,8 @@ s.source = { :git => "https://github.com/awasthi027/cloudconnect.git",
              :tag => "#{s.version}" }
 
 # 7
-s.framework = "UIKit"
-s.dependency = "Foundation"
+#s.framework = "UIKit"
+#s.dependency = "Foundation"
 
 
 # 8
