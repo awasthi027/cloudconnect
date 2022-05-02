@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '12.0'
 s.name = "CloudConnect"
-s.summary = "CloudConnect lets a user select an ice cream flavor."
+s.summary = "CloudConnect is responsible for connecting to cloud and getting the required info from cloud."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.5"
+s.version = "1.0.6"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -35,6 +35,6 @@ s.source_files = "CloudConnect/**/*.{swift}"
 #s.resources = "CloudConnect/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "5.4.2"
+s.swift_version = "5.5"
 
 end

@@ -57,7 +57,7 @@ public class RequestForm {
     internal var provider: HTTPProvider = HTTPProvider()
     internal var session: URLSession!
     public init(url: String, methodType: HTTPMethod = .get,headers: HTTPHeaders, requestType: RequestType = .data) {
-        self.url = url
+        self.url = url.validateURL
         self.method = methodType
         self.headers = headers
         self.requestType = requestType
@@ -72,7 +72,7 @@ public class PostForm: RequestForm {
    public var params: Parameters
     public  init(url: String,headers: HTTPHeaders ,params: Parameters, method: HTTPMethod = .post) {
         self.params = params
-        super.init(url: url, methodType:method, headers: headers)
+        super.init(url: url.validateURL, methodType:method, headers: headers)
     }
 }
 public class DeleteForm: RequestForm {
@@ -126,5 +126,11 @@ public class DownloadForm: RequestForm {
         self.fileName = fileName
         self.subDirPath = subDirPath
         super.init(url: url, methodType: method, headers: headers, requestType: .downloadFile)
+    }
+}
+
+extension String {
+    var validateURL: String {
+        return self.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
     }
 }

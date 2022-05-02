@@ -76,7 +76,7 @@ extension CSError {
     internal var readbleMessage: String {
         switch self {
         case .json: return "We are not getting expected json response or getting null resposne from the API"
-        case .noResponse: return "No response received from API."
+        case .noResponse: return "We are not getting any response data from API. Request has been successful"
         case .noError: return "No error received from api."
         case .noInternet: return "No Internet connection. Please check your internet connect."
         case .invalidURL: return "Invalid URL"

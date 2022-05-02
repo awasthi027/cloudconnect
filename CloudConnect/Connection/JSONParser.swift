@@ -122,7 +122,7 @@ public struct RW {
     }
     
     public static func process<T: Decodable>(_ response: CResult<Data>?, _ decodeClass: T.Type, completed: @escaping (_ result: CResult<[String: Any]>) -> Void) {
-        if let result = response, result.isSuccess, let data = result.value {
+        if let result = response, result.isSuccess, let data = result.value, data.count > 0 {
             self.decodeData(raw: data, withType: decodeClass.self) { (obj, error) in
               if let jsonObj = obj {
                     completed(.success([kResponseObj: jsonObj]))
