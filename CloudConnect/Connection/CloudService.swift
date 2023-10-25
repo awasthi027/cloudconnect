@@ -71,7 +71,7 @@ extension CloudServiceDataSource {
     }
 }
 
-public class CloudService: NSObject {
+open class CloudService: NSObject {
     /// Shared singleton instance used by all `CloudService.request` APIs. Cannot be modified.
     public static let `default` = CloudService()
     
@@ -199,7 +199,7 @@ public class CloudService: NSObject {
     ///   - requestQueue:  Request will suport quequ syncing
     ///   - id: Keep remember request id, It will required, when you want to cancel request
     
-    public func request<T: Decodable>(form: RequestForm, decodeClass: T.Type, _ isRetrunURLResp: Bool = true,
+    open func request<T: Decodable>(form: RequestForm, decodeClass: T.Type, _ isRetrunURLResp: Bool = true,
                                                 completed: @escaping (_ result: CResult<[AnyHashable : Any]>) -> Void) {
         let formItem = form
         switch formItem {
